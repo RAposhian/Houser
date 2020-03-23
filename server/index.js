@@ -9,6 +9,7 @@ const express = require('express'),
 app.use(express.json());
 
 app.get(`/api/houses`, ctrl.getHouses);
+app.post(`/api/house`, ctrl.addHouse);
 
 
 massive({
