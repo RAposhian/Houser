@@ -1,6 +1,7 @@
 require('dotenv').config()
 const express = require('express'),
       massive = require('massive'),
+      ctrl = require('./controller'),
       {SERVER_PORT, CONNECTION_STRING} = process.env
       port = SERVER_PORT,
       app = express();
