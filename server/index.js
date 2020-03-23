@@ -8,7 +8,7 @@ const express = require('express'),
 
 app.use(express.json());
 
-
+app.get(`/api/houses`, ctrl.getHouses);
 
 
 massive({
