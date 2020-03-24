@@ -13,6 +13,10 @@ class Wizard extends Component {
          zip: ''
       }
    }
+
+   handleComplete = () => {
+      
+   }
    
    render() {
       return (
